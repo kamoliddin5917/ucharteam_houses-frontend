@@ -1,0 +1,46 @@
+.header {
+  background: black;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 5px 10px #000;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_link {
+  display: inline-block;
+  text-decoration: none;
+}
+.logo_img {
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  box-shadow: 0 0 5px gold;
+}
+.navbar_card {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+.navbar_link {
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+.navbar_link:hover {
+  background: gold;
+  color: red;
+  cursor: pointer;
+}
+.navbar_link__active {
+  background: gold;
+  color: red;
+}

@@ -1,0 +1,41 @@
+.footer {
+  background: black;
+  color: gold;
+  padding: 10px 0;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_logo {
+  display: block;
+  width: 200px;
+  height: 100px;
+  box-shadow: 0 0 10px gold;
+}
+.footer_card {
+  list-style: none;
+}
+.footer_link {
+  text-decoration: none;
+  color: gold;
+  padding: 5px 0;
+  transition: all 0.4s;
+
+  display: flex;
+  align-items: center;
+}
+.footer_link span {
+  margin-left: 5px;
+}
+.footer_link:hover {
+  background: gold;
+  color: #fff;
+}
+.footer_img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: gold;
+}

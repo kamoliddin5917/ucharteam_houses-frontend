@@ -1,0 +1,59 @@
+.bank_error,
+.modal_buy {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 215, 0, 0.7);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bank_error_body,
+.modal_form {
+  width: 80%;
+  height: 60%;
+
+  background: red;
+  color: gold;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal_form {
+  background: #fff;
+}
+.exit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  border: none;
+  color: red;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+.bank_input {
+  border: none;
+  outline: none;
+
+  background: transparent;
+  color: gold;
+
+  border-bottom: 1px solid #000;
+  margin-top: 7px;
+}
+.bank_btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px 10px;
+  background: gold;
+  color: honeydew;
+  margin-top: 10px;
+}
