@@ -9,7 +9,11 @@ const CompanyList = ({ company, setCompanyId, companyInfo, setModal }) => {
           {company.company_media.length &&
             company.company_media.map((media, i) => (
               <li className="card_media_list" key={i}>
-                <img className="media_list" src={media} />
+                <img
+                  className="media_list"
+                  src={media}
+                  alt={company.company_name}
+                />
               </li>
             ))}
         </ol>

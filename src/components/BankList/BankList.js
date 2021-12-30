@@ -15,7 +15,7 @@ const BankList = ({
         {bank.bank_media.length &&
           bank.bank_media.map((media, i) => (
             <li className="card_media_list" key={i}>
-              <img className="media_list" src={media} />
+              <img className="media_list" src={media} alt={bank.bank_name} />
             </li>
           ))}
       </ol>

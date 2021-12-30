@@ -8,7 +8,11 @@ const ComplexList = ({ complex, setComplexId, complexInfo, setModal }) => {
         {complex.complex_media.length &&
           complex.complex_media.map((media, i) => (
             <li className="card_media_list" key={i}>
-              <img className="media_list" src={media} />
+              <img
+                className="media_list"
+                src={media}
+                alt={complex.complex_name}
+              />
             </li>
           ))}
       </ol>
