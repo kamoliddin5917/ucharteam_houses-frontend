@@ -1,21 +1,27 @@
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
+import { Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // Pages
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
-import { ToastContainer } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import Register from "./pages/Register/Register";
+
+// Routes
+import Public from "./routes/Public";
+import Private from "./routes/Private";
 
 function App() {
   return (
     <>
       <Switch>
-        <Route path="/login" component={Login} />
-        <Route path="/" component={Home} />
+        <Public path="/login" component={Login} />
+        <Public path="/register" component={Register} />
+        <Public path="/" component={Home} />
       </Switch>
 
-      <ToastContainer/>
+      <ToastContainer />
     </>
   );
 }

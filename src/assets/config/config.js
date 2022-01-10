@@ -1,6 +1,6 @@
 const port = {
-  // url: "http://localhost:777",
-  url: "https://ucharteam-houses.herokuapp.com",
+  url: "http://139.162.147.60:777/v1",
+  // url: "https://ucharteam-houses.herokuapp.com",
 };
 
 export default port;
